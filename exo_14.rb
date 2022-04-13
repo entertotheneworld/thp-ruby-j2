@@ -7,7 +7,7 @@ for i in 1..50
         puts "jean.dupont.0#{i}@email.fr" if i % 2 == 0
     else 
         tab << "jean.dupont.#{i}@email.fr"
-        puts "jean.dupont.0#{i}@email.fr" if i % 2 == 0
+        puts "jean.dupont.#{i}@email.fr" if i % 2 == 0
     end
 
 end
